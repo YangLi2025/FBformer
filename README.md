@@ -5,7 +5,7 @@
 ### The Materials Project Dataset
 We provide benchmark results for previous works, including CGCNN, SchNet, MEGNET, GATGNN, ALIGNN, Matformer on The Materials Project Dataset.
 
-In particular, for tasks of formation energy and band gap, we directly follow ALIGNN and use the same training, validation, and test set, including 60000, 5000, and 4239 crystals, respectively. For tasks of Bulk Moduli and Shear Moduli, we follow GATGNN, the recent state-of-the-art method for these two tasks, and use the same training, validation, and test sets, including 4664, 393, and 393 crystals. In Shear Moduli, one validation sample is removed because of the negative GPa value. We either directly use the publicly available codes from the authors, or re-implement models based on their official codes and configurations to produce the results.
+In particular, for tasks of formation energy and band gap, we directly follow ALIGNN and use the same training, validation, and test set, including 60000, 5000, and 4239 crystals, respectively. For tasks of Bulk Moduli and Shear Moduli, we follow GATGNN, the recent state-of-the-art method for these two tasks, and use the same training, validation, and test sets, including 4664, 393, and 393 crystals. In Shear Moduli, one validation sample is removed because of the negative GPa value. The results of the baseline models are taken directly from Matformer.
 
 For bulk and shear datasets, we used the datasets at https://figshare.com/projects/Bulk_and_shear_datasets/165430
 
@@ -13,7 +13,7 @@ For bulk and shear datasets, we used the datasets at https://figshare.com/projec
 
 We also provide benchmark results for previous works, including CGCNN, SchNet, MEGNET, GATGNN, ALIGNN, Matformer on JARVIS Dataset.
 
-JARVIS is a newly released database proposed by Choudhary et al.. For JARVIS dataset, we follow ALIGNN and use the same training, validation, and test set. We evaluate our FBformer on five important crystal property tasks, including formation energy, bandgap(OPT), bandgap(MBJ), total energy, and Ehull. The training, validation, and test set contains 44578, 5572, and 5572 crystals for tasks of formation energy, total energy, and bandgap(OPT). The numbers are 44296, 5537, 5537 for Ehull, and 14537, 1817, 1817 for bandgap(MBJ). The used metric is test MAE. The results for CGCNN and CFID are taken from ALIGNN, other baseline results are obtained by retrained models. 
+JARVIS is a newly released database proposed by Choudhary et al.. For JARVIS dataset, we follow ALIGNN and use the same training, validation, and test set. We evaluate our FBformer on five important crystal property tasks, including formation energy, bandgap(OPT), bandgap(MBJ), total energy, and Ehull. The training, validation, and test set contains 44578, 5572, and 5572 crystals for tasks of formation energy, total energy, and bandgap(OPT). The numbers are 44296, 5537, 5537 for Ehull, and 14537, 1817, 1817 for bandgap(MBJ). The results of the baseline models are taken directly from Matformer.
 
 ## Benchmarked results
 
