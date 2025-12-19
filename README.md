@@ -42,5 +42,5 @@ cd matformer
 python train_js.py
 ```
 
-when using the above scripts, please remember to adjust the properties you want to train in train.py, and also add mp_id_list="shear" or "bulk" if you want to train the model for shear or bulk moduli.
+when using the above scripts, please remember to adjust the properties you want to train in train_xx.py, and also add mp_id_list="shear" or "bulk" if you want to train the model for shear or bulk moduli.
 
